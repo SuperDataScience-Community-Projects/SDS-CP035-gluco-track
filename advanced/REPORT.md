@@ -255,3 +255,28 @@ Q: What challenges did you encounter when interpreting or presenting model expla
 A:  
 
 Q: How would you summarize your model’s interpretability and reliability to a non-technical audience?
+A:
+
+---
+
+# 🚀 Week 5: Deployment
+
+### Interview-Style Questions
+
+Q: Describe your deployment strategy and the platform(s) you chose. Why did you select this approach?
+
+Q: How did you integrate your deep learning model into the deployment solution (Streamlit, Docker, API)? What were the main technical challenges?
+
+Q: What steps did you take to containerize your application? What are the benefits and potential pitfalls of using Docker for ML model deployment?
+
+Q: If you built an API (Flask/FastAPI), how did you design the endpoint(s) for prediction? How did you ensure security and scalability?
+
+Q: How did you validate your deployed model? What tools or methods did you use to test the API or app?
+
+Q: What considerations did you make for handling model updates or versioning in production?
+
+Q: How would you monitor the health and performance of your deployed model? What metrics or tools would you use?
+
+Q: What are the main differences between deploying a model via Streamlit Cloud, Hugging Face Spaces, and a custom API? Which would you recommend for a real-world healthcare application and why?
+
+Q: What are some common risks or failure modes in ML model deployment, and how would you mitigate them?

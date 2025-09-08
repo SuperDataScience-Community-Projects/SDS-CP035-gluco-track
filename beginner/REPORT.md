@@ -245,3 +245,23 @@ A:
 Q: How would you explain your model’s decision process to a non-technical audience?  
 A:
 
+---
+
+# 🚀 Week 5: Deployment
+
+### Interview-Style Questions
+
+Q: How did you design the Streamlit app interface for user-friendly diabetes risk prediction?
+
+Q: What steps did you take to integrate your trained model into the Streamlit app?
+
+Q: How did you validate that the app produces correct predictions for different user inputs?
+
+Q: What challenges did you face when deploying the app to Streamlit Community Cloud, and how did you resolve them?
+
+Q: How did you ensure the app provides clear and actionable feedback to users about their diabetes risk?
+
+Q: What would you do differently if deploying this app for real-world healthcare use (security, privacy, reliability)?
+
+Q: How would you update or retrain the model after deployment if new data becomes available?
+
