@@ -1,75 +1,64 @@
-# GlucoTrack: Predicting Diabetes Likelihood from Lifestyle and Clinical Data
+# Welcome to the SuperDataScience Community Project!
 
-## 🧠 Project Overview
+Welcome to **GlucoTrack: Predicting Diabetes Likelihood Using Clinical Data** 🎉
 
-GlucoTrack is a health-focused classification project that aims to predict whether an individual is diabetic, pre-diabetic, or non-diabetic using self-reported survey and biometric data. The dataset includes responses collected by the CDC on physical activity, BMI, mental health, general wellness, and other lifestyle variables.
+This project is a collaborative initiative brought to you by SuperDataScience, a thriving community dedicated to advancing the fields of data science, machine learning, and AI. We’re excited to have you join us on this journey of exploration, modeling, and deployment.
 
-The project is built around a real-world public health challenge: how do we identify individuals at risk before it’s too late? You’ll analyze patterns in health behavior and demographic variables to develop a predictive model that supports early interventions.
-
-This project is split into two experience tracks:
-
-* 🟢 **Beginner Track** – Build traditional classification models using scikit-learn and deploy a simple Streamlit app.
-* 🔴 **Advanced Track** – Design and train a deep learning classifier with PyTorch or TensorFlow, integrate embeddings for categorical data, and deploy via Docker or Hugging Face Spaces.
+To contribute, please follow the guidelines in our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ---
 
-## 🧪 Dataset Summary
+## 📌 Project Overview
 
-* **Source**: CDC Behavioral Risk Factor Surveillance System (BRFSS)
-* **Instances**: \~250,000
-* **Target Variable**: `Diabetes_binary` (0 = No, 1 = Pre-diabetes or Diabetes)
-* **Features**: 20+ features covering BMI, physical activity, mental health days, general health, smoking status, and more
-* **Data Type**: Tabular, mostly binary and ordinal features
-* **Task Type**: Classification
+**GlucoTrack** is an end-to-end data science project built on demographic and clinical health data. Participants will analyze patient attributes such as glucose levels, BMI, blood pressure, and age to predict the likelihood of diabetes.
 
----
+The project is structured into two learning tracks so members can join at their preferred skill level:
 
-## 🧰 Tools & Libraries
+* 🟢 **Beginner Track** – Feature-based ML pipeline with Streamlit deployment
+* 🔴 **Advanced Track** – Deep learning classification with explainability and interpretability
 
-* **ML Libraries**: scikit-learn, XGBoost, LightGBM (Beginner); PyTorch or TensorFlow (Advanced)
-* **Visualization**: matplotlib, seaborn
-* **Deployment**: Streamlit (Beginner), Docker + Hugging Face Spaces or Flask API (Advanced)
-* **Experiment Tracking**: MLflow
+Dataset: [Diabetes Health Dataset](https://www.kaggle.com/datasets/mathchi/diabetes-data-set)
 
 ---
 
-## 📂 Track Structure
+## 🟢 Beginner Track
 
-### 🟢 Beginner Track
+The Beginner Track emphasizes:
 
-➡️ [Beginner Scope of Works](./beginner/README.md)
+* End-to-end ML workflow using scikit-learn
+* Data preprocessing (handling missing values, normalization, encoding)
+* Training models such as Logistic Regression, Random Forest, and XGBoost
+* Tracking experiments with **MLflow**
+* Deploying a **Streamlit** app for interactive predictions
+
+📌 Get started:
+➡️ [Beginner Track Scope of Works](./beginner/README.md)
 ➡️ [Beginner Report Template](./beginner/REPORT.md)
-➡️ [Submit Your Work](./beginner/submissions/)
+➡️ [Submit your work](./beginner/submissions/)
 
-### 🔴 Advanced Track
+---
 
-➡️ [Advanced Scope of Works](./advanced/README.md)
+## 🔴 Advanced Track
+
+The Advanced Track emphasizes:
+
+* Building deep learning pipelines with PyTorch/TensorFlow
+* Using embeddings, dropout, batch normalization, and regularization
+* Model explainability with SHAP or Integrated Gradients
+* Residual/error analysis for clinical interpretability
+* Deploying a Streamlit app with model predictions and interpretability visuals
+
+📌 Get started:
+➡️ [Advanced Track Scope of Works](./advanced/README.md)
 ➡️ [Advanced Report Template](./advanced/REPORT.md)
-➡️ [Submit Your Work](./advanced/submissions/)
+➡️ [Submit your work](./advanced/submissions/)
 
 ---
 
-## 🚀 Learning Outcomes
+## ⚡ Workflow & Timeline (Both Tracks)
 
-By the end of this project, you will:
-
-* Understand health-related feature engineering and data cleaning techniques
-* Apply classification models and evaluate their performance with appropriate metrics
-* Track experiments and manage reproducibility using MLflow
-* Deploy interactive predictive tools for real-world use cases
-
----
-
-## 👥 Who Should Join?
-
-This project is ideal for:
-
-* Aspiring machine learning engineers and data scientists interested in healthcare analytics
-* Beginners seeking to master the end-to-end ML workflow
-* Intermediate learners who want to experiment with neural networks and sequence modeling
-
----
-
-## 📝 Acknowledgements
-
-This project uses open public health data provided by the Centers for Disease Control and Prevention (CDC).
+| Phase                     | Core Tasks                                                               | Duration  |
+| ------------------------- | ------------------------------------------------------------------------ | --------- |
+| **1 · Setup + EDA**       | Set up repo, clean dataset, explore health indicators, answer key EDA Qs | Week 1    |
+| **2 · Model Development** | Train and tune ML/DL models, track experiments with MLflow               | Weeks 2–4 |
+| **3 · Deployment**        | Build Streamlit app and deploy to Streamlit Cloud                        | Week 5    |
